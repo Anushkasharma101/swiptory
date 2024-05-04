@@ -1,0 +1,172 @@
+/* Default styles */
+
+.mainlogindiv {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  align-items: center;
+  
+}
+
+.container {
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0.25rem 1.875rem 0rem #ffffff40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.logindiv{
+  background-color: white;
+  width: 100%;
+  height:100%;
+  padding: 20px;
+}
+
+.closebtn-div{
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titlelogin{
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.loginform{
+    background-color: white;
+    width:auto;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    
+}
+
+.input-field{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.enter_username{
+  width: 60%;
+  height: 3rem;
+  padding: 0.5rem;
+}
+
+.enter_password{
+  color: #8E8E8E;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  
+}
+.enter_password:focus{
+  color: #8E8E8E;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  
+}
+.password-div{
+  background-color: white;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  border: black solid 1px;
+}
+
+.passwordhide{
+  margin-right: 0.5rem;
+  
+}
+
+.loginbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: 70%;
+    padding: 0rem;
+    border-radius: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .closebtn-div {
+    height: 8%; /* Adjust height of close button div */
+  }
+
+  .titlelogin {
+    font-size: large; /* Adjust font size for title */
+    margin-top: 10px; /* Adjust margin top for title */
+  }
+
+  .loginform {
+    padding: 5px; /* Adjust padding for login form */
+  }
+
+  .input-field {
+    flex-direction: column; /* Stack input fields vertically on small screens */
+    gap: 0rem; /* Add gap between input fields */
+    margin: 2%;
+    align-items: flex-start;
+  }
+
+  .enter_username,
+  .enter_password {
+    width: 100%; /* Make input fields full width */
+  }
+
+  .password-div {
+    width: 100%; /* Make password input container full width */
+  }
+
+  .btn {
+    width: 100%; /* Make button full width */
+    font-size: medium; /* Adjust font size for button */
+  }
+
+  .loginbtn{
+    background-color: blue;
+    height: 20%;
+    color: black;
+    margin-top: 6rem;
+  }
+
+  .btn{
+    width: 8rem;
+    text-align: center;
+    font-size: large;
+    color: black;
+  }
+  
+}
+
+
+

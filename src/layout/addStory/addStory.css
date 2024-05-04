@@ -1,0 +1,260 @@
+.story-maindiv{
+    width: 100vw;
+    height: 100vh;
+    background:#000;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: absolute;
+    z-index: 5;
+    position: relative;
+}
+
+.addstoryform{
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.slidecardlist{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.slidecard{
+    width: 12%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+.input-box{
+    width: 100%;
+    height: 55%;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 700;
+
+}
+.input-box1{
+    display: flex;
+    gap: 12%;
+    margin-left:15%;
+}
+.storyheadinginput::placeholder{
+    color: #474141;
+    font-size: small;
+    padding: 2%;
+    color: #000;
+}
+.storydescription::placeholder{
+    color: #474141;
+    font-size: small;
+    padding: 2%;
+    color: #000;
+}
+.addstoryimage::placeholder{
+    color: #474141;
+    font-size: small;
+    padding: 2%;
+    color: #000;
+}
+.storycategory::placeholder{
+    color: #474141;
+    font-size: small;
+    padding: 2%;
+    color: #000;
+}
+
+
+.input-box2{
+    display: flex;
+    gap: 7.5%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.storydescription {
+    height: 80px; 
+}
+
+.input-box3{
+    display: flex;
+    gap: 15%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.input-box4{
+    height: 7%;
+    display: flex;
+    gap: 11%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.bottombar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+}
+
+.addstorybtngroup{
+    width: 40%;
+    height: 20%;
+    margin-left:7%;
+    margin-top: 2%;
+    
+}
+
+.previousBtn{
+    width: 30%;
+    height: fit-content;
+    background-color:  #7EFF73;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.NextBtn{
+    width: 30%;
+    height: fit-content;
+    background-color: #73ABFF;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2%;
+}
+
+.postBtn{
+     border-radius: 20px;
+     width: 15%;
+     height: 45%;
+     border: none;
+     background-color: #FF7373;
+     color: #fff;
+     padding: 0%;
+     margin-right: 5%;
+     margin-top: 2%;
+}
+
+.storycrossbtn{
+    box-sizing:border-box;
+    border-radius: 50%;
+    border-color: red;
+   box-sizing: none;
+   background-color: #fff;
+   top:0;
+   right: 0;
+} 
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    border: none
+  }
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    
+  }
+  
+  .multiply {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: red;
+   
+  }
+
+
+  
+
+.addSlideBtn{
+    width: 12%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.crossbtn{
+    width: 4%;
+    height: 5%;
+    margin: 2%;
+    float: right;
+}
+
+.storycrossbtn{
+    box-sizing:border-box;
+    border-radius: 50%;
+    border-color: red;
+   box-sizing: none;
+   background-color: #fff;
+   top:0;
+   right: 0;
+} 
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    border: none
+  }
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    
+  }
+  
+  .multiply {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: red;
+   
+  }
+
+  @media screen and (max-width: 768px) {
+    .addstoryform {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}

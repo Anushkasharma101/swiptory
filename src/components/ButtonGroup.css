@@ -1,0 +1,51 @@
+.btn{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border:none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+    color: white;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 700;
+    font-size:smaller;
+    line-height: normal;
+    align-items: center;
+    white-space: nowrap;
+}
+.bookmarkIconDiv{
+    height: fit-content;
+    border:none ;
+    border-radius: 1.25rem;
+    display: flex;
+    gap: 10%;
+    color: white;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 700;
+    font-size:smaller;
+    line-height: normal;
+    align-items: center;
+    white-space: nowrap;
+}
+.bookmarkIconDiv img{
+    width: 20%;
+    height: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        padding: 2%;
+        border-radius: 0.9375rem;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .bookmarkIconDiv {
+        gap: 5%; /* Adjust as needed */
+        font-size: smaller; /* Adjust font size */
+    }
+}
