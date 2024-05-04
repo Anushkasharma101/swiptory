@@ -179,7 +179,7 @@ const DynamicLiks = () => {
               <RxCross1 className="closestorybtn" />
               <FiSend
                 className="sendbtn"
-                onClick={() => copyToClipboard("http://localhost:3000/" + id)}
+                onClick={() => copyToClipboard("https://swiptory-nine.vercel.app/" + id)}
               />
             </div>
           </div>

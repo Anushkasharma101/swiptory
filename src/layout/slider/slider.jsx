@@ -176,7 +176,7 @@ useEffect(() => {
             </div>
             <div className="top-bar">
               <RxCross1 className="closestorybtn" onClick={()=>{setViewStory(false)}}/>
-              <FiSend className = "sendbtn" onClick={() => copyToClipboard('http://localhost:3000/' + data[currentSliderIndex]._id)}
+              <FiSend className = "sendbtn" onClick={() => copyToClipboard('https://swiptory-nine.vercel.app/' + data[currentSliderIndex]._id)}
                 
               />
             </div>
